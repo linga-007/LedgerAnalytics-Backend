@@ -79,3 +79,7 @@ def upload_files():
         "max_balance": _to_native(final_max),
         "min_balance": _to_native(final_min)
     }), 200
+
+@upload_bp.route("/health", methods=["GET"])
+def health_check():
+    return jsonify({"status": "ok"}), 200
