@@ -1,0 +1,8 @@
+Flask
+flask-cors
+werkzeug
+pandas
+openpyxl
+pdfplumber
+tabula-py
+camelot-py[cv]
